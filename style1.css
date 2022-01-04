@@ -118,7 +118,16 @@ span{
 
 }
 
-
+.navbar1 .curr{
+	padding: 5px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 5px;
+	background-color: whitesmoke;
+	text-decoration: underline;
+	color: white;
+}
 
 .Welcome{
 	position: absolute;
@@ -129,20 +138,31 @@ span{
 	
 	color: black;
 }
+.navbar1{
+	background-color: grey;
+	padding: 10px;
+
+}
+
+.navbar1 a{
+	padding: 10px;
+}
 
 #navbar{
 	padding-left: 20px;
-	color: black;
+	color: whitesmoke;
 }
 
 #navbar ul{
 	padding: 0;
 	list-style: none;
+	color: whitesmoke;
 
 }
 
 #navbar li{
 	display: inline;
+	color: whitesmoke;
 }
 #navbar a{
 	color: black;
@@ -152,7 +172,7 @@ span{
 }
 #showcase{
 
-	 <!--background-image: url('wallpaper1.jpeg'); >
+	 <!--background-image: url('wallpaper1.jpeg'); -->
 	 padding-top: 40px;
 	background-position: center right;
 	
