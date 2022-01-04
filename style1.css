@@ -5,6 +5,11 @@ body{
 	font-size: 16px;
 	line-height: 1.6em;
 	margin: 0;
+	min-width: 610px;
+}
+.container5{
+	resize: vertical;
+	overflow: hidden;
 }
 .contact-body{
 	color: #555;
@@ -100,8 +105,8 @@ span{
   
 }
 .gallery img{
-	width:500px;
-    height:500px;
+	width:490px;
+    height:490px;
     border: black;
     padding: 30px;
 
@@ -209,7 +214,7 @@ span{
 	padding: 20px;
 	margin-top: 40px;
 }
-@media(max-width: 600px){
+ @media(min-width: 800px){
 	#main{
 		width: 100%;
 		float: none;
@@ -218,4 +223,13 @@ span{
 		width: 100%;
 		float: none;
 	}
+	p{
+		font-size: 1.25rem;
+	}
 }
+ @media screen and (max-width: 70%) {
+  .navbar1 {
+    float: none;
+    width: 100%;
+  }
+} 
